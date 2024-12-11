@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7,
+                "min": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 10,
+        "min": 2
+      }
+    }
+  ],
+  "random_sequence": "minecraft:chests/stronghold_library"
+}
