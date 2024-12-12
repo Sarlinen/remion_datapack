@@ -1,0 +1,133 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:emerald",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"damage": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0.01
+							},
+							"function": "minecraft:set_damage"
+						}
+					],
+					"name": "minecraft:shield",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:bow",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:soul_speed",
+								"minecraft:aqua_affinity",
+								"minecraft:flame",
+								"minecraft:aqua_affinity",
+								"minecraft:binding_curse",
+								"minecraft:vanishing_curse",
+								"minecraft:lure",
+								"minecraft:luck_of_the_sea"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:iron_axe",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:iron_chestplate",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:golden_carrot",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:smite",
+								"minecraft:bane_of_arthropods",
+								"minecraft:efficiency",
+								"minecraft:smite",
+								"minecraft:frost_walker",
+								"minecraft:feather_falling"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:smite",
+								"minecraft:efficiency",
+								"minecraft:depth_strider",
+								"minecraft:binding_curse",
+								"minecraft:vanishing_curse"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:diamond_axe"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_rare"
+}
