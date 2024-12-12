@@ -15,9 +15,10 @@
 	},
 	"anvil_cost": 1,
 	"slots": [
-		"body"
+		"mainhand"
 	],
 	"effects": {
-		"minecraft:prevent_armor_change": {}
+		"minecraft:prevent_armor_change": {},
+		"minecraft:prevent_equipment_drop": {}
 	}
 }
