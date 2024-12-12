@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_block",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:diamond_axe",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [],
+					"name": "minecraft:diamond_chestplate",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:binding_curse",
+								"minecraft:blast_protection",
+								"minecraft:vanishing_curse",
+								"minecraft:thorns"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:projectile_protection",
+								"minecraft:bane_of_arthropods"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": [
+								"minecraft:blast_protection",
+								"minecraft:projectile_protection",
+								"minecraft:smite"
+							]
+						}
+					],
+					"name": "minecraft:book",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_block"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare"
+}
