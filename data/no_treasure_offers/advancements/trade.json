@@ -1,0 +1,20 @@
+{
+  "display": {
+	"icon": {"item": "minecraft:stone"},
+	"title": "",
+	"description": "",
+	"show_toast": false,
+	"announce_to_chat": false,
+	"hidden": true
+  },
+  "criteria": {
+	"trade": {
+	  "trigger": "minecraft:villager_trade",
+	  "conditions": {
+		"villager": {"nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"}
+	  }
+	}
+  },
+  "requirements": [["trade"]],
+  "rewards": {"function": "no_treasure_offers:trade"}
+}

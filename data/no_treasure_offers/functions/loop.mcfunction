@@ -1,0 +1,2 @@
+execute as @e[tag=!nt_checked,type=minecraft:villager,nbt={VillagerData:{profession:"minecraft:librarian"}}] run function no_treasure_offers:remove_offer
+schedule function no_treasure_offers:loop 1s replace
