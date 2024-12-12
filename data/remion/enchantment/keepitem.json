@@ -1,7 +1,8 @@
 {
-	"description": "keepitem",
-	"exclusive_set": "",
-	"supported_items": "#minecraft:enchantable/armor",
+	"description": "스킨무기",
+	"supported_items": [
+		"minecraft:netherite_sword"
+	],
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
@@ -14,9 +15,9 @@
 	},
 	"anvil_cost": 1,
 	"slots": [
-		"any"
+		"body"
 	],
 	"effects": {
-		"minecraft:prevent_equipment_drop": {}
+		"minecraft:prevent_armor_change": {}
 	}
 }
