@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:single",
-	"enchantment": "remion:test",
-	"level": 1
+  "type": "minecraft:single",
+  "enchantment": "remion:keepitem",
+  "level": 1
 }
