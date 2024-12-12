@@ -32,8 +32,8 @@
 							"add": false,
 							"count": {
 								"type": "minecraft:uniform",
-								"max": 5,
-								"min": 3
+								"max": 2,
+								"min": 1
 							},
 							"function": "minecraft:set_count"
 						}
@@ -48,7 +48,7 @@
 							"chance": {
 								"type": "minecraft:uniform",
 								"min": 0.001,
-								"max": 0.4
+								"max": 0.3
 							}
 						}
 					]
