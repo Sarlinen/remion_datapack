@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": {
+			"item": "minecraft:air"
+		},
+		"C": {
+			"item": "minecraft:air"
+		},
+		"S": {
+			"item": "minecraft:air"
+		}
+	},
+	"pattern": [
+		"#S#",
+		"#C#",
+		"###"
+	],
+	"result": {
+		"count": 2,
+		"id": "minecraft:air"
+	}
+}
