@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": "마법 부여자",
+    "description": "서버를 탐험하면서 상자에서 마법이 부여된 책을 얻어보세요",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "get_enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "experience": 100
+  }
+}
