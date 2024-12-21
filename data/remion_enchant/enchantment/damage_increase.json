@@ -1,0 +1,37 @@
+{
+  "description": "공격력 증가 ",
+  "exclusive_set": [
+    "minecraft:sweeping_edge",
+    "minecraft:mending",
+    "minecraft:fire_aspect"
+  ],
+  "supported_items": "",
+  "primary_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 10,
+  "min_cost": {
+    "base": 3,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 16,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": ""
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 2
+        }
+      }
+    ]
+  }
+}
