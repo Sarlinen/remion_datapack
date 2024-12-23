@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 30,
+  "description": "갑옷 경량화",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "remion_enchant:lightening_armor",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 1
+}
