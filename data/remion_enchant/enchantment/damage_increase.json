@@ -1,6 +1,6 @@
 {
-  "anvil_cost": 30,
-  "description": "데미지 증가 ",
+  "anvil_cost": 3,
+  "description": "데미지 증가",
   "effects": {
     "minecraft:damage": [
       {
@@ -20,13 +20,13 @@
     "minecraft:sweeping_edge"
   ],
   "max_cost": {
-    "base": 30,
-    "per_level_above_first": 11
+    "base": 1,
+    "per_level_above_first": 1
   },
   "max_level": 10,
   "min_cost": {
-    "base": 30,
-    "per_level_above_first": 11
+    "base": 1,
+    "per_level_above_first": 1
   },
   "slots": [
     "hand"
