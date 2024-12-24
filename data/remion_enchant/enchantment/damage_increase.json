@@ -1,6 +1,6 @@
 {
   "anvil_cost": 3,
-  "description": "데미지 증가",
+  "description": "Damage",
   "effects": {
     "minecraft:damage": [
       {
