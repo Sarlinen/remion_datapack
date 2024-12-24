@@ -1,6 +1,6 @@
 {
   "anvil_cost": 30,
-  "description": "갑옷 경량화",
+  "description": "Speed",
   "effects": {
     "minecraft:attributes": [
       {
