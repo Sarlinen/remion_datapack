@@ -5,7 +5,7 @@
     "minecraft:attributes": [
       {
         "attribute": "minecraft:movement_speed",
-        "id": "remion_enchant:lightening_armor",
+        "id": "remion_enchant:speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.05,
