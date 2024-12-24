@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 30,
+  "anvil_cost": 15,
   "description": "Speed",
   "effects": {
     "minecraft:attributes": [
@@ -11,22 +11,22 @@
           "base": 0.05,
           "per_level_above_first": 0.05
         },
-        "operation": "add_multiplied_total"
+        "operation": "add_multiplied_base"
       }
     ]
   },
   "max_cost": {
     "base": 50,
-    "per_level_above_first": 0
+    "per_level_above_first": 1
   },
   "max_level": 4,
   "min_cost": {
     "base": 25,
-    "per_level_above_first": 0
+    "per_level_above_first": 1
   },
   "slots": [
     "head"
   ],
-  "supported_items": "#minecraft:enchantable/head_armor",
+  "supported_items": "#minecraft:enchantable/foot_armor",
   "weight": 1
 }
