@@ -4,7 +4,7 @@
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"attribute": "minecraft:generic.movement_speed",
+				"attribute": "minecraft:movement_speed",
 				"id": "remion_enchant:speed",
 				"amount": {
 					"type": "minecraft:linear",
