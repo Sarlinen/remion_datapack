@@ -2,6 +2,7 @@
   "replace": true,
   "values": [
     "#minecraft:curse",
-    "remion_enchant:speed_lite"
+    "remion_enchant:speed_lite",
+    "remion_enchant:damage_lite"
   ]
 }
