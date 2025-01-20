@@ -29,13 +29,14 @@
 	},
 	"exclusive_set": [
 		"minecraft:mending",
-		"minecraft:sweeping_edge"
+		"minecraft:sweeping_edge",
+		"remion_enchant:damage"
 	],
 	"max_cost": {
 		"base": 1,
 		"per_level_above_first": 1
 	},
-	"max_level": 10,
+	"max_level": 5,
 	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 1
