@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:curse"
+    "#minecraft:curse",
+    "remion_enchant:speed_lite"
   ]
 }
