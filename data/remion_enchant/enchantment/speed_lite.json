@@ -1,4 +1,8 @@
 {
+	"exclusive_set": [
+		"minecraft:mending",
+		"remion_enchant:speed"
+	],
 	"anvil_cost": 15,
 	"description": "Speed (Lite)",
 	"effects": {
