@@ -1,6 +1,6 @@
 {
 	"anvil_cost": 15,
-	"description": "Depleted Speed",
+	"description": "Speed (Lite)",
 	"effects": {
 		"minecraft:attributes": [
 			{
