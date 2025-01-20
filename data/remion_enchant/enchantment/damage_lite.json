@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 3,
+  "description": "Damage (Lite)",
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          }
+        }
+      }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 5,
+            "per_level_above_first": 5
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": [
+    "minecraft:mending",
+    "minecraft:sweeping_edge"
+  ],
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1
+}
