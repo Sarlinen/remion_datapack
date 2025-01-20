@@ -1,48 +1,49 @@
 {
-  "anvil_cost": 3,
-  "description": "Damage",
-  "effects": {
-    "minecraft:damage": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 1
-          }
-        }
-      }
-    ],
-    "minecraft:item_damage": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 10,
-            "per_level_above_first": 8
-          }
-        }
-      }
-    ]
-  },
-  "exclusive_set": [
-    "minecraft:mending",
-    "minecraft:sweeping_edge"
-  ],
-  "max_cost": {
-    "base": 1,
-    "per_level_above_first": 1
-  },
-  "max_level": 10,
-  "min_cost": {
-    "base": 1,
-    "per_level_above_first": 1
-  },
-  "slots": [
-    "hand"
-  ],
-  "supported_items": "#minecraft:enchantable/sharp_weapon",
-  "weight": 1
+	"anvil_cost": 3,
+	"description": "Damage",
+	"effects": {
+		"minecraft:damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 1
+					}
+				}
+			}
+		],
+		"minecraft:item_damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 10,
+						"per_level_above_first": 8
+					}
+				}
+			}
+		]
+	},
+	"exclusive_set": [
+		"minecraft:mending",
+		"minecraft:sweeping_edge",
+		"remion_enchant:damage_lite"
+	],
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"max_level": 10,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 1
+	},
+	"slots": [
+		"hand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 1
 }
