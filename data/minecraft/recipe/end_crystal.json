@@ -4,15 +4,16 @@
   "key": {
     "E": "minecraft:ender_eye",
     "G": "minecraft:glass",
-    "T": "minecraft:ghast_tear"
+    "T": "minecraft:ghast_tear",
+    "D": "minecraft:diamond_block"
   },
   "pattern": [
-    "GGG",
+    "DGD",
     "GEG",
     "GTG"
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:glass"
+    "id": "minecraft:end_crystal"
   }
 }
