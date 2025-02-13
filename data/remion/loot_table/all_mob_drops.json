@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": {
@@ -19,117 +18,137 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "weight": 35
+          "weight": 500
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "weight": 30
+          "weight": 450
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 25
+          "weight": 400
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 28
+          "weight": 420
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 2
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 32
+          "weight": 480
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:spider_eye",
-          "weight": 10
+          "weight": 180
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 20
+          "weight": 300
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:beef",
-          "weight": 40
+          "weight": 600
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:porkchop",
-          "weight": 38
+          "weight": 580
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chicken",
-          "weight": 36
+          "weight": 550
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:feather",
-          "weight": 22
+          "weight": 350
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:mutton",
-          "weight": 34
+          "weight": 540
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool",
+          "weight": 200
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
-          "weight": 12
+          "weight": 150
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_foot",
-          "weight": 1
+          "weight": 15
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit",
+          "weight": 450
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
           "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ghast_tear",
-          "weight": 1
+          "weight": 15
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
-          "weight": 3
+          "weight": 40
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
-          "weight": 8
+          "weight": 120
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
-          "weight": 10
+          "weight": 150
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell",
-          "weight": 2
+          "weight": 30
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:dragon_breath",
-          "weight": 2
+          "name": "minecraft:totem_of_undying",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:turtle_scute",
-          "weight": 5
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 30
         }
       ]
     }
