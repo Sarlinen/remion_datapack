@@ -33,12 +33,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 420
+          "weight": 120
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 30
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -53,7 +53,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 300
+          "weight": 150
         },
         {
           "type": "minecraft:item",
