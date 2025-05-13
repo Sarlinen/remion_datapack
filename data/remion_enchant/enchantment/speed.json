@@ -4,7 +4,7 @@
 		"remion_enchant:speed_lite"
 	],
 	"anvil_cost": 15,
-	"description": "Speed",
+	"description": ":unique: Speed",
 	"effects": {
 		"minecraft:attributes": [
 			{
