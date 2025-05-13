@@ -1,6 +1,6 @@
 {
 	"anvil_cost": 3,
-	"description": ":unique: Damage",
+	"description": ":legendary: Damage",
 	"effects": {
 		"minecraft:damage": [
 			{
@@ -8,8 +8,8 @@
 					"type": "minecraft:add",
 					"value": {
 						"type": "minecraft:linear",
-						"base": 1.5,
-						"per_level_above_first": 1.5
+						"base": 2,
+						"per_level_above_first": 2
 					}
 				}
 			}
@@ -33,13 +33,13 @@
 		"remion_enchant:damage_lite"
 	],
 	"max_cost": {
-		"base": 1,
-		"per_level_above_first": 1
+		"base": 10,
+		"per_level_above_first": 2
 	},
 	"max_level": 10,
 	"min_cost": {
-		"base": 1,
-		"per_level_above_first": 1
+		"base": 10,
+		"per_level_above_first": 2
 	},
 	"slots": [
 		"hand"
