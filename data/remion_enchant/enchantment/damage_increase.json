@@ -1,0 +1,48 @@
+{
+  "anvil_cost": 2,
+  "description": "추가 공격력",
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:clamped",
+            "value": 1,
+            "min": 1,
+            "max": 3
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": [
+    "minecraft:sweeping_edge"
+  ],
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 2
+  },
+  "max_level": 20,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 2
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1
+}
