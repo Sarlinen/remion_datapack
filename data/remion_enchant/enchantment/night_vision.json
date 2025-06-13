@@ -1,6 +1,6 @@
 {
   "anvil_cost": 30,
-  "description": "Gamma",
+  "description": "월광의 시선",
   "effects": {
     "minecraft:tick": [
       {
