@@ -1,6 +1,6 @@
 {
   "anvil_cost": 2,
-  "description": "추가 공격력",
+  "description": "연마된 힘",
   "effects": {
     "minecraft:damage": [
       {
