@@ -1,0 +1,35 @@
+{
+  "exclusive_set": [
+    "minecraft:mending"
+  ],
+  "anvil_cost": 15,
+  "description": "바람의 가호",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "remion_enchant:speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.04,
+          "per_level_above_first": 0.04
+        },
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 1
+  },
+  "max_level": 10,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1
+}
