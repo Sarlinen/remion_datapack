@@ -8,7 +8,7 @@
                 "predicates": {
                     "minecraft:enchantments": [
                         {
-                            "enchantments": "smelting_enchantment:smelting"
+                            "enchantments": "remion_enchant:smelting"
                         }
                     ]
                 }
