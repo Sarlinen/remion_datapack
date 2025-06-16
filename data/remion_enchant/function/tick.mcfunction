@@ -1,1 +1,1 @@
-execute as @a run function smelting_enchantment:player/tick
+execute as @a run function remion_enchant:player/tick
