@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_enchantments",
                 "enchantments": {
-                  "smelting_enchantment:smelting": 1
+                  "remion_enchant:smelting": 1
                 }
               }
             ]
