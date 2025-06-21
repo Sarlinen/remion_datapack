@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 30,
+  "description": "월광의 시선",
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:night_vision",
+          "min_duration": 15,
+          "max_duration": 15,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 1
+}
